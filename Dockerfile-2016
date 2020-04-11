@@ -1,0 +1,5 @@
+FROM mottosso/maya:2016sp1
+
+WORKDIR /root/workdir
+
+ENTRYPOINT ["./entrypoint.sh"]
